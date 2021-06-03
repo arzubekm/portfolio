@@ -1,4 +1,4 @@
-.container {
+/* .container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -118,4 +118,24 @@
     width: 100%;
     flex-direction: column;
   }
+} */
+
+/* OWN STYLES */
+
+.navbar {
+    background-color: whitesmoke;
+    border-color: transparent;
+    color: whitesmoke;
+}
+
+.navbar h2 {
+    color:#f1356d;
+    /* font-weight: bolder; */
+    font-family: cursive;
+}
+
+.footer {
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
 }
