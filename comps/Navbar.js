@@ -1,19 +1,33 @@
 import Link from 'next/link'
 import 'bootstrap/dist/css/bootstrap.css'
 import styles from '../styles/Home.module.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Navbar = () => {
     return (
-        <div className={styles.navbar}>
-            <div className="navbar navbar-light">
-                <div className="container-fluid">
-                <div className="container">
-                    <Link href="/"><a><h2>arzubekm</h2></a></Link>
-                </div>
-                <a href="https://github.com/arzubekm/" target="_blank">
-                    <FontAwesomeIcon icon="github" />
-                </a>
+        <div>
+            <div className="container">
+                <div className={styles.navbar}>
+                    <nav class="nav">
+                        <div class="col-3">
+                            <a href="/" class="nav-link active" aria-current="page"><h3>arzubekm</h3></a>
+                        </div>
+                        <div class="col-4"></div>
+                        <div class="col-1">
+                            <Link href="/"><a class="nav-link"><h5>Home</h5></a></Link>    
+                        </div>
+                        <div class="col-1">
+                            <Link href="/projects"><a class="nav-link"><h5>Projects</h5></a></Link>
+                        </div>
+                        <div class="col-1">
+                            <a class="nav-link"><h5>Git</h5></a>
+                        </div>
+                        <div class="col-1">
+                            <a class="nav-link"><h5>LinkedIn</h5></a>
+                        </div>
+                        <div class="col-1">
+                            <a class="nav-link"><h5>Instagram</h5></a>
+                        </div>
+                    </nav>
                 </div>
             </div>
         </div>
