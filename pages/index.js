@@ -1,3 +1,6 @@
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -46,7 +49,10 @@ export default function Home() {
                   <span class="badge bg-secondary">Github</span>
                   <p class="card-text">Movierec is a Web app that recommends users similar movies to the movie that they inputted.</p>
                   <a href="/" target="_blank" class="btn btn-primary">Link</a>
-                  <i class="fab fa-github"></i>
+                  <div class="d-flex">
+                    <h4><FontAwesomeIcon icon={faGithub} /></h4>
+                    <h4><FontAwesomeIcon icon={faExternalLinkAlt}/></h4>
+                  </div>
                 </div>
               </div>
             </div>
