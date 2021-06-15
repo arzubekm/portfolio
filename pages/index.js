@@ -47,11 +47,16 @@ export default function Home() {
                   <span class="badge bg-secondary">Javascript</span>&nbsp;&nbsp;
                   <span class="badge bg-info text-dark">Bootstrap</span>&nbsp;&nbsp;
                   <span class="badge bg-secondary">Github</span>
+                  <div className={styles.spanBottom}></div>
                   <p class="card-text">Movierec is a Web app that recommends users similar movies to the movie that they inputted.</p>
-                  <a href="/" target="_blank" class="btn btn-primary">Link</a>
-                  <div class="d-flex">
-                    <h4><FontAwesomeIcon icon={faGithub} /></h4>
-                    <h4><FontAwesomeIcon icon={faExternalLinkAlt}/></h4>
+                  <div class="row">
+                    <div class="col-sm-1">
+                      <a href ="/" target="_blank"><h4><FontAwesomeIcon icon={faExternalLinkAlt}/></h4></a>
+                    </div>
+                    <div class="col-sm-10"></div>
+                    <div class="col-sm-1">
+                      <a href ="https://github.com/arzubekm" target="_blank"><h4><FontAwesomeIcon icon={faGithub}/></h4></a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -64,8 +69,17 @@ export default function Home() {
                   <span class="badge bg-secondary">Python</span>&nbsp;&nbsp;
                   <span class="badge bg-info text-dark">Bootstrap</span>&nbsp;&nbsp;
                   <span class="badge bg-secondary">Github</span>
+                  <div className={styles.spanBottom}></div>
                   <p class="card-text">Playerec is a Web app that recommends users football players similar to the player of their choice.</p>
-                  <a href="https://player-rec.herokuapp.com/" target="_blank" class="btn btn-primary">Link</a>
+                  <div class="row">
+                    <div class="col-sm-1">
+                      <a href ="https://player-rec.herokuapp.com/" target="_blank"><h4><FontAwesomeIcon icon={faExternalLinkAlt}/></h4></a>
+                    </div>
+                    <div class="col-sm-10"></div>
+                    <div class="col-sm-1">
+                      <a href ="https://github.com/arzubekm/playerRec" target="_blank"><h4><FontAwesomeIcon icon={faGithub}/></h4></a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -80,8 +94,17 @@ export default function Home() {
                   <span class="badge bg-secondary">Python</span>&nbsp;&nbsp;
                   <span class="badge bg-info text-dark">Bootstrap</span>&nbsp;&nbsp;
                   <span class="badge bg-secondary">Github</span>
+                  <div className={styles.spanBottom}></div>
                   <p class="card-text">Movierec is a Web app that recommends users similar movies to the movie that they inputted.</p>
-                  <a href="https://recmovie-api.herokuapp.com/" target="_blank" class="btn btn-primary">Link</a>
+                  <div class="row">
+                    <div class="col-sm-1">
+                      <a href ="https://recmovie-api.herokuapp.com/" target="_blank"><h4><FontAwesomeIcon icon={faExternalLinkAlt}/></h4></a>
+                    </div>
+                    <div class="col-sm-10"></div>
+                    <div class="col-sm-1">
+                      <a href ="https://github.com/arzubekm/recmovie" target="_blank"><h4><FontAwesomeIcon icon={faGithub}/></h4></a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -92,8 +115,14 @@ export default function Home() {
                   <span class="badge bg-secondary">Java</span>&nbsp;&nbsp;
                   <span class="badge bg-success">Android</span>&nbsp;&nbsp;
                   <span class="badge bg-secondary">Github</span>
-                  <p class="card-text">Popular Movie is an Android app that has been made together with Udacity online course.</p>
-                  {/* <a href="https://player-rec.herokuapp.com/" target="_blank" class="btn btn-primary">Project link</a> */}
+                  <div className={styles.spanBottom}></div>
+                  <p class="card-text">Popular Movie is an Android app that has been made together with <a href="https://classroom.udacity.com/courses/ud853" target="_blank">Udacity</a> online course.</p>
+                  <div class="row">
+                    <div class="col-sm-11"></div>
+                    <div class="col-sm-1">
+                      <a href ="https://github.com/arzubekm/Popular-Movie-App" target="_blank"><h4><FontAwesomeIcon icon={faGithub}/></h4></a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -108,6 +137,7 @@ export default function Home() {
                   <span class="badge bg-secondary">Django</span>&nbsp;&nbsp;
                   <span class="badge bg-info text-dark">Bootstrap</span>&nbsp;&nbsp;
                   <span class="badge bg-secondary">Github</span>
+                  <div className={styles.spanBottom}></div>
                   <p class="card-text">Easy Travel is a Web app that shows users affordable list of travel destinations based on their inputted budget.</p>
                   {/* <a href="https://recmovie-api.herokuapp.com/" target="_blank" class="btn btn-primary">Project link</a> */}
                 </div>

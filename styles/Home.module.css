@@ -189,12 +189,8 @@
   margin: 0 15px;
 }
 
-.cardBadge {
-  margin-left: 5px;
-}
-
-.badge {
-  margin-left: 5px;
+.spanBottom {
+  margin-bottom: 12px;
 }
 
 @media (max-width: 600px) {
