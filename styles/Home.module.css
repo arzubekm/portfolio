@@ -189,6 +189,14 @@
   margin: 0 15px;
 }
 
+.cardBadge {
+  margin-left: 5px;
+}
+
+.badge {
+  margin-left: 5px;
+}
+
 @media (max-width: 600px) {
   .identity {
     flex-direction: column;

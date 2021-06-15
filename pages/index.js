@@ -24,7 +24,7 @@ export default function Home() {
           </div>
           <div className={styles.row}>
             <div className={styles.left}>Frontend</div>
-            <div className={styles.right}>React.js, Next.js, Html, CSS, jQuery</div>
+            <div className={styles.right}>React.js, Next.js, Html, CSS/Bootstrap, jQuery</div>
           </div>
           <div className={styles.row}>
             <div className={styles.left}>Backend</div>
@@ -33,8 +33,85 @@ export default function Home() {
         </div>
         <div id="projects" className={styles.projects}>
           <div className={styles.title}>Projects</div>
+
+          <div class="row">
+          <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Portfolio</h5>
+                  <span class="badge bg-info text-dark">React</span>&nbsp;&nbsp;
+                  <span class="badge bg-dark">NextJS</span>&nbsp;&nbsp;
+                  <span class="badge bg-secondary">Javascript</span>&nbsp;&nbsp;
+                  <span class="badge bg-info text-dark">Bootstrap</span>&nbsp;&nbsp;
+                  <span class="badge bg-secondary">Github</span>
+                  <p class="card-text">Movierec is a Web app that recommends users similar movies to the movie that they inputted.</p>
+                  <a href="/" target="_blank" class="btn btn-primary">Link</a>
+                  <i class="fab fa-github"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Playerec</h5>
+                  <span class="badge bg-warning text-dark">Jupyter</span>&nbsp;&nbsp;
+                  <span class="badge bg-secondary">Python</span>&nbsp;&nbsp;
+                  <span class="badge bg-info text-dark">Bootstrap</span>&nbsp;&nbsp;
+                  <span class="badge bg-secondary">Github</span>
+                  <p class="card-text">Playerec is a Web app that recommends users football players similar to the player of their choice.</p>
+                  <a href="https://player-rec.herokuapp.com/" target="_blank" class="btn btn-primary">Link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br></br>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Movierec</h5>
+                  <span class="badge bg-warning text-dark">Jupyter</span>&nbsp;&nbsp;
+                  <span class="badge bg-secondary">Python</span>&nbsp;&nbsp;
+                  <span class="badge bg-info text-dark">Bootstrap</span>&nbsp;&nbsp;
+                  <span class="badge bg-secondary">Github</span>
+                  <p class="card-text">Movierec is a Web app that recommends users similar movies to the movie that they inputted.</p>
+                  <a href="https://recmovie-api.herokuapp.com/" target="_blank" class="btn btn-primary">Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Popular Movie</h5>
+                  <span class="badge bg-secondary">Java</span>&nbsp;&nbsp;
+                  <span class="badge bg-success">Android</span>&nbsp;&nbsp;
+                  <span class="badge bg-secondary">Github</span>
+                  <p class="card-text">Popular Movie is an Android app that has been made together with Udacity online course.</p>
+                  {/* <a href="https://player-rec.herokuapp.com/" target="_blank" class="btn btn-primary">Project link</a> */}
+                </div>
+              </div>
+            </div>
+          </div>
+          <br></br>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Easy travel</h5>
+                  <span class="badge bg-warning text-dark">Jupyter</span>&nbsp;&nbsp;
+                  <span class="badge bg-secondary">Django</span>&nbsp;&nbsp;
+                  <span class="badge bg-info text-dark">Bootstrap</span>&nbsp;&nbsp;
+                  <span class="badge bg-secondary">Github</span>
+                  <p class="card-text">Easy Travel is a Web app that shows users affordable list of travel destinations based on their inputted budget.</p>
+                  {/* <a href="https://recmovie-api.herokuapp.com/" target="_blank" class="btn btn-primary">Project link</a> */}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className={styles.contact}></div>
+        <div className={styles.contact}>
+          <div className={styles.title}>Contact</div>
+        </div>
       </div>
     </div>
   )
