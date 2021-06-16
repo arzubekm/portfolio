@@ -145,7 +145,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className={styles.contact}>
+        <div className={styles.skills}>
           <div className={styles.title}>Contact</div>
         </div>
       </div>
