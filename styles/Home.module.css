@@ -132,9 +132,17 @@
 
 .imgavatar {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  /* width: 100px;
+  height: 100px; */
   margin-right: 25px;
+}
+
+.resumeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 274px;
+  padding-top: 10px;
 }
 
 /* NEW STYLE */

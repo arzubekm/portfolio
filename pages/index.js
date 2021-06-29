@@ -1,5 +1,5 @@
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+import { faDownload, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styles from '../styles/Home.module.css'
 
@@ -9,12 +9,21 @@ export default function Home() {
       <div className="container">
         <div id="about" className={styles.identity}>
           <img src="avatar.jpg" class={styles.imgavatar} width={100} height={100} alt="Arzu"/>
+          
           <div className={styles.text}>
             <div className={styles.name}>Arzubek Murtazaev</div>
             <div className={styles.description}>Data Scientist, Web Developer</div>
             <div className={styles.description}>Ulsan, South Korea</div>
           </div>
         </div>
+        
+        
+        <div className={styles.resumeButton}>
+          <a href="/files/resume.pdf" download><button class="btn btn-outline-dark"><strong>Resume </strong><FontAwesomeIcon icon={faDownload}/></button></a>
+        </div>
+        {/* <FontAwesomeIcon icon={faDownload}/> */}
+
+
         <div id="skills" className={styles.skills}>
           <div className={styles.title}>Skills</div>
           <div className={styles.row}>
