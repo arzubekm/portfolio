@@ -143,6 +143,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding-top: 50px;
 }
 
 .identity .text .name {
@@ -180,11 +181,21 @@
 
 .skills {
   padding: 25px 0;
+  padding-top: 50px;
+}
+
+.projects {
+  margin-bottom: 50px;
+  padding-top: 50px;
 }
 
 .navigation {
   text-align: right;
   padding: 15px 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
 }
 
 .navigation a {

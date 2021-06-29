@@ -7,7 +7,7 @@ const Navbar = () => {
         <div>
             <div className="container">
                 <div className={styles.navigation}>
-                    <a href="/">About</a>
+                    <a href="#about">About</a>
                     <a href="#skills">Skills</a>
                     <a href="#projects">Projects</a>
                     <a href="#contact">Contact</a>
