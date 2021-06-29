@@ -1,4 +1,4 @@
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styles from '../styles/Home.module.css'
@@ -145,9 +145,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className={styles.skills}>
+        {/* <div className={styles.skills}>
           <div className={styles.title}>Contact</div>
-        </div>
+        </div> */}
       </div>
     </div>
   )
