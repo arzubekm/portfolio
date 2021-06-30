@@ -64,7 +64,7 @@ export default function Home() {
                     </div>
                     <div class="col-sm-10"></div>
                     <div class="col-sm-1">
-                      <a href ="https://github.com/arzubekm" target="_blank"><h4><FontAwesomeIcon icon={faGithub}/></h4></a>
+                      <a href ="https://github.com/arzubekm/portfolio" target="_blank"><h4><FontAwesomeIcon icon={faGithub}/></h4></a>
                     </div>
                   </div>
                 </div>
