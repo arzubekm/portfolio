@@ -52,10 +52,10 @@ export default function Home() {
                 <div class="card-body">
                   <h5 class="card-title">Portfolio</h5>
                   {/* <span class="badge bg-info text-dark">React</span>&nbsp;&nbsp; */}
+                  <span class="badge bg-secondary">ReactJS</span>&nbsp;&nbsp;
                   <span class="badge bg-dark">NextJS</span>&nbsp;&nbsp;
-                  <span class="badge bg-dark">ReactJS</span>&nbsp;&nbsp;
                   <span class="badge bg-info text-dark">Bootstrap</span>&nbsp;&nbsp;
-                  <span class="badge bg-secondary">Github</span>
+                  {/* <span class="badge bg-secondary">Github</span> */}
                   <div className={styles.spanBottom}></div>
                   <p class="card-text">Movierec is a Web app that recommends users similar movies to the movie that they inputted.</p>
                   <div class="row">
@@ -64,7 +64,7 @@ export default function Home() {
                     </div>
                     <div class="col-sm-10"></div>
                     <div class="col-sm-1">
-                      {/* <a href ="https://github.com/arzubekm" target="_blank"><h4><FontAwesomeIcon icon={faGithub}/></h4></a> */}
+                      <a href ="https://github.com/arzubekm" target="_blank"><h4><FontAwesomeIcon icon={faGithub}/></h4></a>
                     </div>
                   </div>
                 </div>
@@ -77,7 +77,7 @@ export default function Home() {
                   <span class="badge bg-warning text-dark">Jupyter</span>&nbsp;&nbsp;
                   <span class="badge bg-primary">Python</span>&nbsp;&nbsp;
                   <span class="badge bg-info text-dark">Bootstrap</span>&nbsp;&nbsp;
-                  <span class="badge bg-secondary">Github</span>
+                  {/* <span class="badge bg-secondary">Github</span> */}
                   <div className={styles.spanBottom}></div>
                   <p class="card-text">Playerec is a Web app that recommends users football players similar to the player of their choice.</p>
                   <div class="row">
@@ -86,7 +86,7 @@ export default function Home() {
                     </div>
                     <div class="col-sm-10"></div>
                     <div class="col-sm-1">
-                      {/* <a href ="https://github.com/arzubekm/playerRec" target="_blank"><h4><FontAwesomeIcon icon={faGithub}/></h4></a> */}
+                      <a href ="https://github.com/arzubekm/playerRec" target="_blank"><h4><FontAwesomeIcon icon={faGithub}/></h4></a>
                     </div>
                   </div>
                 </div>
@@ -102,7 +102,7 @@ export default function Home() {
                   <span class="badge bg-warning text-dark">Jupyter</span>&nbsp;&nbsp;
                   <span class="badge bg-primary">Python</span>&nbsp;&nbsp;
                   <span class="badge bg-info text-dark">Bootstrap</span>&nbsp;&nbsp;
-                  <span class="badge bg-secondary">Github</span>
+                  {/* <span class="badge bg-secondary">Github</span> */}
                   <div className={styles.spanBottom}></div>
                   <p class="card-text">Movierec is a Web app that recommends users similar movies to the movie that they inputted.</p>
                   <div class="row">
@@ -111,7 +111,7 @@ export default function Home() {
                     </div>
                     <div class="col-sm-10"></div>
                     <div class="col-sm-1">
-                      {/* <a href ="https://github.com/arzubekm/recmovie" target="_blank"><h4><FontAwesomeIcon icon={faGithub}/></h4></a> */}
+                      <a href ="https://github.com/arzubekm/recmovie" target="_blank"><h4><FontAwesomeIcon icon={faGithub}/></h4></a>
                     </div>
                   </div>
                 </div>
@@ -123,10 +123,11 @@ export default function Home() {
                   <h5 class="card-title">Popular Movie</h5>
                   <span class="badge bg-danger">Java</span>&nbsp;&nbsp;
                   <span class="badge bg-success">Android</span>&nbsp;&nbsp;
-                  <span class="badge bg-secondary">Github</span>
+                  <span class="badge bg-primary">Python</span>
                   <div className={styles.spanBottom}></div>
                   <p class="card-text">Popular Movie is an Android app that has been made together with <a href="https://classroom.udacity.com/courses/ud853" target="_blank">Udacity</a> online course.</p>
                   <div class="row">
+                    <div class="col-sm-11"></div>
                     <div class="col-sm-1">
                       <a href ="https://github.com/arzubekm/Popular-Movie-App" target="_blank"><h4><FontAwesomeIcon icon={faGithub}/></h4></a>
                     </div>
@@ -144,7 +145,7 @@ export default function Home() {
                   <span class="badge bg-warning text-dark">Jupyter</span>&nbsp;&nbsp;
                   <span class="badge bg-primary">Django</span>&nbsp;&nbsp;
                   <span class="badge bg-info text-dark">Bootstrap</span>&nbsp;&nbsp;
-                  <span class="badge bg-secondary">Github</span>
+                  {/* <span class="badge bg-secondary">Github</span> */}
                   <div className={styles.spanBottom}></div>
                   <p class="card-text">Easy Travel is a Web app that shows users affordable list of travel destinations based on their inputted budget.</p>
                   {/* <a href="https://recmovie-api.herokuapp.com/" target="_blank" class="btn btn-primary">Project link</a> */}
