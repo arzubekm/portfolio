@@ -19,4 +19,4 @@ npm run dev
 ### Access the app
 You can open the app in your browser by typing http://127.0.0.1:3000/
 
-Also, it is hosted on Vercel: [https://portfolio-ruddy-omega.vercel.app/](https://portfolio-ruddy-omega.vercel.app/)
+Also, it is hosted on Vercel: [https://portfolio-arzubekm.vercel.app/](https://portfolio-arzubekm.vercel.app/)
