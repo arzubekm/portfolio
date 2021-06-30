@@ -1,11 +1,15 @@
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faDownload, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>arzubekm - portfolio</title>
+      </Head>
       <div className="container">
         <div id="about" className={styles.identity}>
           <img src="avatar.jpg" class={styles.imgavatar} width={100} height={100} alt="Arzu"/>
