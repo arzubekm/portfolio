@@ -57,7 +57,7 @@ export default function Home() {
                   <span class="badge bg-info text-dark">Bootstrap</span>&nbsp;&nbsp;
                   <span class="badge bg-secondary">Github</span>
                   <div className={styles.spanBottom}></div>
-                  <p class="card-text">Movierec is a Web app that recommends users similar movies to the movie that they inputted.</p>
+                  <p class="card-text">Portfolio is a simple web app that one can find information about me including the resume. </p>
                   <div class="row">
                     <div class="col-sm-1">
                       <a href ="/" target="_blank"><h4><FontAwesomeIcon icon={faExternalLinkAlt}/></h4></a>
