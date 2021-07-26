@@ -1,5 +1,5 @@
 # Portfolio
-Portfolio is built using [NextJS](https://nextjs.org/). It is a simple web app that one can not only find info about me, but also download my resume.
+Portfolio is built using React framework called [NextJS](https://nextjs.org/). It is a simple web app that one can not only find info about me, but also download my resume.
 
 ### Clone the project
 ```
