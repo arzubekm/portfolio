@@ -21,6 +21,8 @@ export default function Home() {
           </div>
         </div>
         
+        {/* TEMP */}
+        <a href='https://next.lbasense.com/api/Analytics/doohReport/Download/?site_id=5262&region_id=21&email=clea@dfrc.ch'>download</a>
         
         <div className={styles.resumeButton}>
           <a href="/files/resume.pdf" download><button class="btn btn-outline-dark"><strong>Resume </strong><FontAwesomeIcon icon={faDownload}/></button></a>
