@@ -16,8 +16,8 @@ export default function Home() {
           
           <div className={styles.text}>
             <div className={styles.name}>Arzubek Murtazaev</div>
-            <div className={styles.description}>Data Scientist, Web Developer</div>
-            <div className={styles.description}>Ulsan, South Korea</div>
+            <div className={styles.description}>Software Engineer, Web Developer/Data Scientist</div>
+            <div className={styles.description}>Seoul, South Korea</div>
           </div>
         </div>
         
@@ -32,19 +32,19 @@ export default function Home() {
           <div className={styles.title}>Skills</div>
           <div className={styles.row}>
             <div className={styles.left}>Data Science</div>
-            <div className={styles.right}>Machine/Deep Learning, Jupyter, Python</div>
+            <div className={styles.right}>Machine/Deep Learning, Python, Data Preprocessing/Analysis</div>
           </div>
           <div className={styles.row}>
             <div className={styles.left}>Programming Languages</div>
-            <div className={styles.right}>Python, Java, Javascript</div>
+            <div className={styles.right}>Python, Javascript</div>
           </div>
           <div className={styles.row}>
             <div className={styles.left}>Frontend</div>
-            <div className={styles.right}>React.js, Next.js, Html, CSS/Bootstrap, jQuery</div>
+            <div className={styles.right}>ReactJS, NextJS</div>
           </div>
           <div className={styles.row}>
             <div className={styles.left}>Backend</div>
-            <div className={styles.right}>Django, Node.js</div>
+            <div className={styles.right}>Django Rest Framework, NodeJS</div>
           </div>
         </div>
         <div id="projects" className={styles.projects}>
