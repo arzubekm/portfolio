@@ -26,6 +26,7 @@ export default function Home() {
           <a href="/files/resume.pdf" download><button class="btn btn-outline-dark"><strong>Resume </strong><FontAwesomeIcon icon={faDownload}/></button></a>
         </div>
         {/* <FontAwesomeIcon icon={faDownload}/> */}
+        
 
 
         <div id="skills" className={styles.skills}>
