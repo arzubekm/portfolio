@@ -14,7 +14,7 @@ const Footer = () => {
                     <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/arzubekm/" target="_blank" role="button"><FontAwesomeIcon icon={faInstagram} /></a>
                 </div>
                 <div className={styles.copyright}>
-                    <div class="text-center p-3"><p><strong>© 2022 Arzubek Murtazaev</strong></p></div>
+                    <div class="text-center p-3"><p><strong>© 2023 Arzubek Murtazaev</strong></p></div>
                 </div>
             </footer>
         </div>
